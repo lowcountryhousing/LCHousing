@@ -23,12 +23,6 @@ body, html {
   background-size: cover;
 }
 
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
-  min-height: 100%;
-}
-
 /* Second image (Portfolio) */
 .bgimg-2 {
   background-image: url("/w3images/parallax2.jpg");
@@ -62,8 +56,8 @@ body, html {
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> RESOURCES</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> AWARENESS</a>
+    <a href="#resources" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> RESOURCES</a>
+    <a href="#awareness" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> AWARENESS</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -72,8 +66,8 @@ body, html {
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#resources" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+    <a href="#awareness" class="w3-bar-item w3-button" onclick="toggleFunction()">AWARENESS</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
@@ -81,21 +75,37 @@ body, html {
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">Lowcountry Housing Assistance</h3>
-  <p>This site will host information about Housing Assistance within the Tri-County area.</p>
+  <h1 class="w3-center"style="border:grey; border-width:5px; border-style: double;">Lowcountry Housing Assistance</h1>
+  <p style="text-align:center">This site will host information about Housing Assistance within the Tri-County area.</p>
   <div class="w3-row">
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Within this site we will provide a complete list of resources for finding affordable, stable housing for you and your loved ones.</p>
-    </div>
 </div>
 
+<!-- Container (Resources Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Resources</h3>
+  <p style="text-align:center">This site will host information about Housing Assistance within the Tri-County area.</p>
+  <div class="w3-row">
+</div>
+  
+<!-- Container (Awareness Section) -->    
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Awareness</h3>
+  <p style="text-align:center">This site will host information about Housing Assistance within the Tri-County area.</p>
+  <div class="w3-row">
+</div>
 
 <!-- Container (Contact Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Contact</h3>
+  <p style="text-align:center">This site will host information about Housing Assistance within the Tri-County area.</p>
+  <div class="w3-row">
+</div>
+
+<!-- Container (Contact Section)
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">WHERE I WORK</h3>
 </div>
-
+-->  
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
@@ -136,4 +146,3 @@ function toggleFunction() {
 
 </body>
 </html>
-
